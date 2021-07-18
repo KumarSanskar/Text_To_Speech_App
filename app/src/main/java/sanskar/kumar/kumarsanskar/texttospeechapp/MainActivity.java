@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         listenInEnglish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String inputText = enterText.getText().toString();
+                textToSpeech.speak(inputText,TextToSpeech.QUEUE_FLUSH,null);
             }
         });
     }
