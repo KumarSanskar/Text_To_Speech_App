@@ -29,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
                 textToSpeech.setSpeechRate(1.0f);
             }
         });
+        listenInEnglish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
